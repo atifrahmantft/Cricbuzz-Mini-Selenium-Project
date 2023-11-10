@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Temporary Suite" thread-count="2" parallel="tests">
+    <listeners>
+        <listener class-name="org.example.cricbuzz.listeners.TestReports"></listener>
+    </listeners>
+    <test name="Test1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckBrokenLinks"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckRankings"/>
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="3"  parallel="tests">
+
+    <test name="Test1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckBrokenLinks"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckStats"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.Demo"/>
+        </classes>
+    </test>
+
+    <test name="Test4">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckBrokenLinks"/>
+        </classes>
+    </test>
+
+    <test name="Test5">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckStats"/>
+        </classes>
+    </test>
+
+    <test name="Test6">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.Demo"/>
+        </classes>
+    </test>
+
+    <test name="Test7">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckRankings"/>
+        </classes>
+    </test>
+
+    <test name="Test8">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="org.example.cricbuzz.tests.CheckRankings"/>
+        </classes>
+    </test>
+
+</suite>
+

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T18:22:59 IST" name="All Test Suite" finished-at="2023-11-08T18:24:03 IST" duration-ms="64135">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T18:22:59 IST" name="Test3" finished-at="2023-11-08T18:23:17 IST" duration-ms="17989">
+      <class name="org.example.cricbuzz.tests.Demo">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.Demo@1184ab05]" started-at="2023-11-08T18:22:59 IST" name="setUp" finished-at="2023-11-08T18:23:08 IST" duration-ms="9034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.Demo@1184ab05]" started-at="2023-11-08T18:23:08 IST" name="test1" finished-at="2023-11-08T18:23:16 IST" duration-ms="8157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.Demo@1184ab05]" started-at="2023-11-08T18:23:16 IST" name="tearDown" finished-at="2023-11-08T18:23:17 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.Demo -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-11-08T18:22:59 IST" name="Test2" finished-at="2023-11-08T18:23:30 IST" duration-ms="31066">
+      <class name="org.example.cricbuzz.tests.CheckStats">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:22:59 IST" name="setUp" finished-at="2023-11-08T18:23:08 IST" duration-ms="9035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForMostRuns(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:23:08 IST" name="testForMostRuns" finished-at="2023-11-08T18:23:15 IST" duration-ms="6751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForMostRuns -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:23:15 IST" name="tearDown" finished-at="2023-11-08T18:23:15 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:23:15 IST" name="setUp" finished-at="2023-11-08T18:23:17 IST" duration-ms="1928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForMostSixes(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:23:17 IST" name="testForMostSixes" finished-at="2023-11-08T18:23:29 IST" duration-ms="12151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForMostSixes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckStats@79b06cab]" started-at="2023-11-08T18:23:29 IST" name="tearDown" finished-at="2023-11-08T18:23:30 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.CheckStats -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-08T18:22:59 IST" name="Test1" finished-at="2023-11-08T18:23:47 IST" duration-ms="48205">
+      <class name="org.example.cricbuzz.tests.CheckBrokenLinks">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@6dbb137d]" started-at="2023-11-08T18:22:59 IST" name="setUp" finished-at="2023-11-08T18:23:08 IST" duration-ms="9074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@6dbb137d]" started-at="2023-11-08T18:23:08 IST" name="test1" finished-at="2023-11-08T18:23:47 IST" duration-ms="38563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@6dbb137d]" started-at="2023-11-08T18:23:47 IST" name="tearDown" finished-at="2023-11-08T18:23:47 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.CheckBrokenLinks -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-08T18:23:17 IST" name="Test4" finished-at="2023-11-08T18:23:48 IST" duration-ms="31000">
+      <class name="org.example.cricbuzz.tests.CheckBrokenLinks">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@1b1473ab]" started-at="2023-11-08T18:23:17 IST" name="setUp" finished-at="2023-11-08T18:23:19 IST" duration-ms="2497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@1b1473ab]" started-at="2023-11-08T18:23:19 IST" name="test1" finished-at="2023-11-08T18:23:47 IST" duration-ms="27745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckBrokenLinks@1b1473ab]" started-at="2023-11-08T18:23:47 IST" name="tearDown" finished-at="2023-11-08T18:23:48 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.CheckBrokenLinks -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-11-08T18:23:47 IST" name="Test6" finished-at="2023-11-08T18:23:56 IST" duration-ms="8713">
+      <class name="org.example.cricbuzz.tests.Demo">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.Demo@5be6e01c]" started-at="2023-11-08T18:23:47 IST" name="setUp" finished-at="2023-11-08T18:23:49 IST" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.Demo@5be6e01c]" started-at="2023-11-08T18:23:49 IST" name="test1" finished-at="2023-11-08T18:23:55 IST" duration-ms="6341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.Demo@5be6e01c]" started-at="2023-11-08T18:23:55 IST" name="tearDown" finished-at="2023-11-08T18:23:56 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.Demo -->
+    </test> <!-- Test6 -->
+    <test started-at="2023-11-08T18:23:48 IST" name="Test7" finished-at="2023-11-08T18:23:56 IST" duration-ms="7955">
+      <class name="org.example.cricbuzz.tests.CheckRankings">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@78b66d36]" started-at="2023-11-08T18:23:48 IST" name="setUp" finished-at="2023-11-08T18:23:50 IST" duration-ms="2320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rankingTest(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@78b66d36]" started-at="2023-11-08T18:23:50 IST" name="rankingTest" finished-at="2023-11-08T18:23:56 IST" duration-ms="5386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rankingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@78b66d36]" started-at="2023-11-08T18:23:56 IST" name="tearDown" finished-at="2023-11-08T18:23:56 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.CheckRankings -->
+    </test> <!-- Test7 -->
+    <test started-at="2023-11-08T18:23:30 IST" name="Test5" finished-at="2023-11-08T18:23:57 IST" duration-ms="27212">
+      <class name="org.example.cricbuzz.tests.CheckStats">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:30 IST" name="setUp" finished-at="2023-11-08T18:23:33 IST" duration-ms="3392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForMostRuns(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:33 IST" name="testForMostRuns" finished-at="2023-11-08T18:23:41 IST" duration-ms="7961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForMostRuns -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:41 IST" name="tearDown" finished-at="2023-11-08T18:23:42 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:42 IST" name="setUp" finished-at="2023-11-08T18:23:45 IST" duration-ms="3299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForMostSixes(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:45 IST" name="testForMostSixes" finished-at="2023-11-08T18:23:56 IST" duration-ms="11136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForMostSixes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckStats@ef9296d]" started-at="2023-11-08T18:23:56 IST" name="tearDown" finished-at="2023-11-08T18:23:57 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.cricbuzz.tests.CheckStats -->
+    </test> <!-- Test5 -->
+    <test started-at="2023-11-08T18:23:56 IST" name="Test8" finished-at="2023-11-08T18:24:03 IST" duration-ms="7181">
+      <class name="org.example.cricbuzz.tests.CheckRankings">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@69b2283a]" started-at="2023-11-08T18:22:57 IST" name="beforeSuite" finished-at="2023-11-08T18:22:59 IST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@69b2283a]" started-at="2023-11-08T18:23:56 IST" name="setUp" finished-at="2023-11-08T18:23:58 IST" duration-ms="1706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rankingTest(java.lang.String)[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@69b2283a]" started-at="2023-11-08T18:23:58 IST" name="rankingTest" finished-at="2023-11-08T18:24:03 IST" duration-ms="4988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rankingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@69b2283a]" started-at="2023-11-08T18:24:03 IST" name="tearDown" finished-at="2023-11-08T18:24:03 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.example.cricbuzz.tests.CheckRankings@69b2283a]" started-at="2023-11-08T18:24:03 IST" name="afterSuite" finished-at="2023-11-08T18:24:04 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.example.cricbuzz.tests.CheckRankings -->
+    </test> <!-- Test8 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

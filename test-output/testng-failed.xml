@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckStats">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="testForMostSixes"/>
+          <include name="testForMostRuns"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckStats -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckBrokenLinks">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckBrokenLinks -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.Demo">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.Demo -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" parallel="tests" name="Test5(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckStats">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testForMostSixes"/>
+          <include name="tearDown"/>
+          <include name="testForMostRuns"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckStats -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="3" parallel="tests" name="Test4(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckBrokenLinks">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckBrokenLinks -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="3" parallel="tests" name="Test6(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.Demo">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.Demo -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="3" parallel="tests" name="Test7(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckRankings">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="rankingTest"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckRankings -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="3" parallel="tests" name="Test8(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="org.example.cricbuzz.tests.CheckRankings">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="rankingTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.example.cricbuzz.tests.CheckRankings -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
